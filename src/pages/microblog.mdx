@@ -1,0 +1,23 @@
+---
+layout: ../layouts/PageLayout.astro
+---
+import text from '../../entries.txt?raw'
+import BlogEntries from '../components/BlogEntries.astro'
+
+# Turtlemay's Micro-Blog
+
+Welcome to my everyday thoughts in plain text.  
+Entries are ordered from oldest to newest.
+
+[Jump to bottom ⬇](#bottom)
+
+Send questions and comments to:
+[contact](/contact)
+
+`▒▒▒ ENTRIES ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+<BlogEntries bottomId="bottom" entriesText={text} />
+
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+[What am I watching?](/medialog) 🡒

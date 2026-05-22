@@ -1,0 +1,46 @@
+---
+layout: ../layouts/IndexLayout.astro
+---
+import text from '../../entries.txt?raw'
+import LatestEntry from '../components/LatestEntry.astro'
+import Posts from '../components/Posts.astro'
+
+```
+░▄▀░░▄▀░░▀▄░░░░░░▀▄░░░█▀░▀█░░▀▄░░▄▀░░▀▄░░░░░
+░█░░░█░░░░█░░▀▀▀░░▄▀░▀▄░░░▄▀░░█░░█░░░░█░░░▀░
+░░▀░░░▀░░▀░░░▀▀▀░▀░░░░▀▀░▀▀░░▀░░░░▀░░▀░░░▄▀░
+```
+
+Welcome to the sacred texts of Turtlemay.  
+This is the index.
+
+`▒▒▒ START HERE ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+[intro](/intro) -
+[purpose of this site](/purpose)
+
+`▒▒▒ LATEST ENTRY ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+<LatestEntry entryText={text} />
+
+[all entries](/microblog)
+
+`▒▒▒ PAGES ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+[now](/now) -
+[microblog](/microblog) -
+[medialog](/medialog) -
+[contact](/contact)
+
+More pages:
+[music](/music),
+[food](/food),
+[files](/misc)
+
+`▒▒▒ MISC POSTS ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+<Posts />
+
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+\[\[ [site rss feed](/rss.xml) \]\]

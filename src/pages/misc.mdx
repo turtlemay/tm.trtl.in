@@ -1,0 +1,11 @@
+---
+layout: ../layouts/PageLayout.astro
+---
+import FilesList from '../components/FilesList.astro'
+
+`▒▒▒ MISC FILES ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+Here's an index of drafts and files which have yet to be organized:
+<FilesList files={import.meta.glob('/public/files/**/*')} />
+
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`

@@ -1,0 +1,12 @@
+---
+import { parseEntries } from "../../parse-entries.js";
+import Entry from "./Entry.astro";
+
+interface Props {
+	entryText: string;
+}
+
+const v = parseEntries(Astro.props.entryText).at(-1);
+---
+
+{v && <Entry date={v.date} content={v.content} />}

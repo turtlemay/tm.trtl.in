@@ -1,0 +1,16 @@
+---
+interface Props {
+	files: Record<string, unknown>;
+}
+---
+
+<ul>
+	{Object.keys(Astro.props.files).map(v => {
+		v = v.replace('/public', '')
+		return (
+			<li>
+				<a href={v}>{v}</a>
+			</li>
+		)
+	})}
+</ul>

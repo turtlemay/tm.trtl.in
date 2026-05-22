@@ -1,0 +1,12 @@
+---
+interface Props {
+	id?: string;
+	date: string;
+	content: string;
+}
+---
+
+<p id={Astro.props.id}>
+	<date>{Astro.props.date}</date><br/>
+	{Astro.props.content}
+</p>

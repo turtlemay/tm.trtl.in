@@ -1,0 +1,230 @@
+2025-09-25T03:59:13-04:00
+Hello world!
+
+2025-09-25T04:17:40-04:00
+Newly obsessed with the command line, currently migrating much of my workflow and projects to CLI tools running on my home server.
+
+2025-09-25T04:18:00-04:00
+Ditching complicated productivity apps and cloud tools in favor of plain text, markdown, and local files synced over LAN via Syncthing.
+
+2025-09-25T04:18:30-04:00
+Vim and tmux are my new best friends.
+
+2025-09-25T04:26:47-04:00
+Small chromebook logged in to my SSH server now makes an excellent portable workstation for daily research and note-taking.
+
+2025-09-25T15:10:50-04:00
+Gotta love Grundens overalls for working outside. Rain jackets and boots are easy to come by but fishing bibs were the missing piece for total impenetrability.
+
+2025-09-25T15:12:05-04:00
+Looking into possible tooling and/or decentralized platforms for this microblog. As long as I'm avoiding compilation I can rule out twtxt and similar formats due to awkward wrapping in my text editors. For now I think I'll avoid any dependencies for as long as possible and we'll see how the format naturally evolves.
+
+2025-09-25T22:43:23-04:00
+Home free tomorrow after a spell of rain. Errands first thing in the morning, then taking as many deliveries as possible for the next week until my priority driver status expires.
+
+2025-09-26T14:45:30-04:00
+I wish I could hate Amazon. From all my groceries to obscure Chinese auto parts, it's no longer worthwhile to even look anywhere else and I fear for what that's going to mean in the future.
+
+2025-09-28T18:52:20-04:00
+Recently tried alcohol for the first time at 30 years old. Didn't get it at first. First day, tried a beer with food, nothing happened, a second after an hour, nothing happened. Three on an empty stomach finally got a buzz… Now I've settled into a nice weekend routine of 6oz of 80-proof chased with something sweet.
+
+2025-09-28T19:30:00-04:00
+Looking into Gopher and Gemini protocols, really digging the idea of a text-only and terminal-friendly internet. Gopher's barebones client and consistent menu system are nice but spotty UTF-8 support for special characters is a non-starter.
+
+2025-09-29T22:54:36-04:00
+Gemini protocol seems perfect for what I'm trying to do with my plain text notes and micro-blog. Currently setting up a site on my home server.
+
+2025-09-30T02:39:59-04:00
+Finished setting up a gemini server with http proxy for accessibility. I'm a bit disappointed with the inconsistent rendering between clients so most content will have to remain as plain text files with some directories as needed.
+
+2025-10-01T15:01:00-04:00
+Chalk up most gemini rendering weirdness to file encoding. Specifically, txt files should have BOM but not gmi files. Now to iron out some inconsistencies between gemini and http.
+
+2025-10-01T18:18:03-04:00
+Well, after giving it a fair go I no longer see any benefits to gopher and gemini. Gemini doesn't even do plain text well in terms of whitespace. Having to blockquote entire pages to get the formatting I want defeats the purpose of hyptertext. Maybe it would be different if devices were shipping with support, but if every site needs an http mirror and links to http sites anyway, we might as well skip the middleman. 
+
+2025-10-01T18:46:19-04:00
+The absurdity of it all truly dawned on me when I started writing a css stylesheet to make my hypertext look like plain text because of the weird non-semantic formatting introduced by the http proxy. Gemini people have argued against html subsets for the smolweb but that's the solution I'm seeing. Just use semantic HTML (or something that compiles to it) targeting CLI browsers first and you can have it all with perfect accessibility and progressive enhancement.
+
+2025-10-02T14:18:36-04:00
+Finding a quiet place to sit down in this city is an exercise in frustration. I've got to make a list of all the parks with shelters or at least shaded benches.
+
+2025-10-02T17:30:00-04:00
+Settled on a shady spot on the downtown promenade to wait out the rush hour traffic. There's an interesting water feature that deserves a vignette next time I come around.
+
+2025-10-06T16:00:00-04:00
+Bike maintenance this afternoon. Replacing a cylinder head for the second time because of a broken stud on the exhaust port. I've tried everything to keep the exhaust pipe on these Chinese engines from vibrating loose, short of welding the blasted thing on. Last dose of 10w40 before it's time for the winter oil.
+
+2025-10-07T12:45:38-04:00
+Lots of rain all day today. Staying on the couch working on my small-web project with the TV on.
+
+2025-10-07T13:03:09-04:00
+Eager to install this new carb on my bike but after having the engine apart I'd better do a test run tomorrow before changing anything major.
+
+2025-10-07T13:03:39-04:00
+Really wish there were a barebones markup language with embedded shell scripting, a la PHP. Seems like this would be really fast, language-agnostic, and cover all templating needs. Having a chain of build commands isn't hard but feels filthy using multiple complex platforms with dependencies just for sticking some includes and stdout into a text document.
+
+2025-10-08T12:11:39-04:00
+Never been more out of my wits than when my swingarm just came loose at 45mph. Swayed like the death bell about to toll for me... Luckily I could coast to a stop and reuse a nut from elsewhere on the bike to get it tight again.
+
+2025-10-08T15:06:03-04:00
+NIBBI works like a charm on the 125. Not much difference to the PZ20 but shorter throttle cable actuation.
+
+2025-10-09T17:12:58-04:00
+Lost another day to a corroded battery cutoff switch meaning NO BATTERY power! Notably bikes can mostly run just off the magneto but it's a bit nerve-wracking to think you could stall from the RPM or voltage dropping too low. One thing I will always sing praises of is the humble kick-start lever!
+
+2025-10-20T15:02:31-04:00
+A public park with working wifi? And there's this great picnic table under a little cypress grove. So nice! Wyman Woods in Grandview Heights.
+
+2025-10-21T20:35:27-04:00
+Random UPS guy had a go at me today for not letting him in to the secure apartment building I just delivered to. This is called piggybacking or tailgating and it's security 101... NEVER HOLD OPEN A LOCKED DOOR. I don't care who you are, you can do what I did and contact the office or customer to be let in. It's not my fault or responsibility to circumvent someone else's security which is there for a reason.
+
+2025-10-29T14:27:30-04:00
+Went to do some work in VS Code and found the web app down, which is the main environment I've been accustomed to since getting my netbook. Decided it's finally time to install the linux version locally and I find that it's not hosted anywhere except Microsoft servers which are also down. Even flathub's package system depends on MS servers. If I wasn't annoyed enough before at the unnecessary cloud integration, massive dependencies, and incessant updates, this may be the last push I needed back to the cold embrace of GNU.
+
+2025-10-29T14:53:01-04:00
+I don't think anything you could offer me in any IDE or plugin at this point would be worth the hassle. Just let text be text... Syntax highlighting is overrated, and with the exception of automatic symbol renaming, all the static analysis and language server shenanigans I've ever used can just be done by CLI. Only thing I need to figure out at this point is a nice project tree that works with vim and/or tmux.
+
+2025-10-29T15:15:00-04:00
+NERDtree in vim is pretty close to what I want for project file management in lieu of an IDE, along with the fzf plugin for quickly opening project files.
+
+2025-10-29T22:02:28-04:00
+Having a slow couple of days on account of the rain, taking the opportunity to updated my websites and set up my development environments after a year out of practice.
+
+2025-10-31T17:37:25-04:00
+Lost my second motorcycle to a cracked frame after only five months... Thought the first one was a fluke but now I see these cheap frames are a big problem. Had some of the same broken minor welds as well, separated by three model years. Sadly out of warranty.
+
+2025-10-31T19:41:05-04:00
+Pour one out for the X-Pro X25. It was such a cool looking bike but just not up to snuff for the hundred miles a day I put it through. Tough decisions ahead.
+
+2025-11-01T02:44:37-04:00
+Taking another chance on a Honda Cub clone with the same wheelset and engine as before so my current inventory doesn't completely go to waste. Stripping everything off the old bike in the morning and storing anything useful while I wait for the new one to arrive.
+
+2025-11-03T05:49:00-05:00
+Sprung for a Vader 125 as well. I'm not big on these bulky bikes but the frame is much sturdier and still manageable. It also uses the same engine I already have. This is the last vehicle I'll be able to afford for a long time so fingers crossed I don't have to get too creative.
+
+2025-11-09T12:40:52-05:00
+Installed upgrades on the new Vader over the past three days and started breaking it in today. It's quite stout with very different handling from what I'm used to. Fat tires are not my cup of tea but one thing it does have going for it is the hydraulic discs.
+
+2025-11-09T13:00:42-05:00
+One or two more practice rides on the Vader and I'll be back to work doing deliveries.
+
+2025-11-18T12:00:21-05:00
+Vader 125 is handling deliveries well. Taking the day off today to receive my Cub shipment which I may end up reselling. I'm eager to get a look at the frame and see if it's strong enough or can be made strong enough for my purposes.
+
+2025-11-18T12:05:47-05:00
+The other week I also picked up a nice 1971 Honda frame for $200 to revive the cafe cruiser. Currently running it through a Tennessee title service for vintage bikes which I should be able to get transferred to Ohio within the next couple months.
+
+2025-11-18T17:07:56-05:00
+...Aaand Cub delivery is a no-show. Thanks, roadrunner.
+
+2025-11-20T18:00:00-05:00
+Finally got my Cub 125 delivered and put together, awaiting the MCO. It's an interesting little bike. Still lots of work to do on it along with the CL70. Once I get them both registered I'll be able to resell the Vader, probably sometime in the Spring.
+
+2025-11-20T21:23:17-05:00
+Lawn work tomorrow if I can beat the rain. It's about time to clear up the last of the leaves for this season.
+
+2025-11-21T17:35:01-05:00
+Got the last of the leaves cleared up today and hung up the blower for the season. Next week I can do one last pass with the mower.
+
+2025-11-23T23:12:54-05:00
+Got my first tubeless flat today. What's the benefit of these things again? I brought the wheel home, patched the tire, then proceeded to struggle for several hours trying to get it reseated. Almost dropped another $300 I don't have on tubeless equipment before it occurred to me to just rip out the stem and pop in an old tube. $10, 3 minutes, job done. Don't fall for this nonsense.
+
+2025-11-23T23:21:19-05:00
+Had to leave my bike overnight at a park, which doesn't feel great... Not much chance of it rolling away without the wheel, I just hope it'll still be in one piece in the morning.
+
+2025-11-24T16:42:06-05:00
+Successfully rescued the bike this morning.
+
+2025-11-25T21:17:00-05:00
+Another lazy day.
+
+2025-11-25T21:19:38-05:00
+Next-door neighbor went out of her way yesterday to dump all her leaves from the season on my lawn. I have offered in writing to rake everything for her and she still feels the need to punish me for having a tree. I didn't invent the thing, lady. Unfortunately we all have to live on the planet Earth where leaves are naturally occurring.
+
+2025-12-01T15:30:11-05:00
+BMV trip this morning, got my Vader titled and registered, still waiting on papers for my other two bikes.
+
+2025-12-02T09:47:21-05:00
+Shoveling my walkways after last night's first snow of the season. Roads are looking rough today.
+
+2025-12-08T15:00:00-05:00
+Columbus is currently upgrading all the water meters in the city with bigger RF modules. I was pleased to find out that the procedure wouldn't require any plumbing but the lurking issue remains of my inaccessible curb stop which we might need one day in the event of a leak. I never brought it up to the company that buried it and theoretically the city shouldn't charge me at all, but the thought doesn't make me eager to look into the matter.
+
+2025-12-11T13:25:08-05:00
+Just had my newly-registered motorcycle stolen from the roadside last week... got it back pretty quickly thanks to my GPS tracker, a little worse for the wear but still workable. Unsurprisingly, if your stolen property is concealed, GPS is not enough to be actionable for the police, but a little bit of espionage provided the visual evidence they needed (i.e. my handlebars poking out from under a tarp behind an RV, precisely where my tracker was indicating). After seven hours of waiting they allowed my to drag it out and bring it home on a tow truck.
+
+2025-12-11T13:38:29-05:00
+Made friends with the thief's neighbors, so there may be at least some silver lining to all this.
+
+2025-12-11T13:41:40-05:00
+Resting my strained arm after the bike recovery three days ago. Between this and the upcoming winter storm I'll be out quite a bit of income. Thankfully my tenant should provide enough to keep me limping along until I can get riding again. I'll at least have time for bike upkeep and sorting out some paperwork. 
+
+2025-12-13T11:50:06-05:00
+Got in a couple more shifts and a grocery run before the snow. Lots of shovelling to do later tonight and tomorrow morning, then two or three days to spend at home before I start working again.
+
+2025-12-26T12:36:13-05:00
+Recently discovered the value of pesto. Versatile and calorie-dense like peanut butter. I never really knew what is was until looking it up at age 31, now it's become a daily staple. So far I've tried a couple of brands premade (which I think aren't vegan). I'll have to look into making it fresh; seems like it should be pretty easy.
+
+2025-12-26T12:47:13-05:00
+On the topic of vegan sauces, I have to also speak highly of fresh salsa. Just dice up a cup of cherry tomatoes, onion, and your pepper of choice. So much nicer than the pureed stuff grocery stores sell.
+
+2025-12-28T19:07:52-05:00
+There's something so pleasing about Squishmallow bigfoots. They have good textures and feel really good to hold. Just gifted myself a couple of them after shopping around a while for a stuffie. Not entirely sure what brought about the urge, guess I've just been feeling nostalgic lately. I used to have quite the collection of soft toys which I never fully appreciated until now.
+
+2025-12-29T08:49:36-05:00
+Cold day going into a cold month. Getting heavy use out of my ski gear... and more crucially my new electric vest. Years ago I shelled out for heated gloves and insoles while neglecting that part. Of course along the way I learned of the efficacy of core layers but somehow never quite made that jump until now. 100% worth it, and with a couple spare power banks it's even practical for around the house and in bed.
+
+2026-01-18T23:03:32-05:00
+There will never be a place in the world for AI-generated art. Using tools to reduce gruntwork and drudgery is one thing, but the function of art is an expression of human experience and to remove this most important element is an affront to our civilization. The most rudimentary scratchings of a toddler have more value than anything produced by a program or algorithm. Art will always require the touch of a human, and I don't mean the touch of the "do all the work for me" button.
+
+2026-01-18T23:49:45-05:00
+Furthermore on this topic... if you get your information and advice from AI, please verify it with actual sources, for goodness' sake. If I find out you outsource your thoughts to a chatbot which regularly produces fiction and outdated information, I know not to trust your work or anything out of your mouth ever again.
+
+2026-01-19T00:08:42-05:00
+The term "artificial intelligence" as it's used today is a misnomer. The popular conception of AI of the last century obviously does not exist yet, nor do I believe it to be on track to exist by any method we have seen. Our current generative bots and algorithms are a shallow imitation at best, if not outright fiction. Things like neural nets have been around for a long time in games and simulations but they can never approach practical intelligence. I think the first AI will not be a simulation at all but something closer to a quantum-level artificial brain... at which point it may be more appropriate to call it "actual intelligence" rather than artificial.
+
+2026-01-19T00:46:41-05:00
+In the future we may well have androids as a new life form but they will surely not descend from LLMs. While they could have body systems running software, brains and computers are just not that comparable beyond the surface level. It would require a whole new field of science.
+
+2026-01-26T06:23:12-05:00
+Record-breaking ten inches of snow here in Columbus, dipping into sub-zero temperatures shortly. Just shoveled and I'm settling in to start relearning the Unity engine for the next week or two until things start to clear up.
+
+2026-01-30T14:31:04-05:00
+I'll never understand people that choose to cut down their own trees and shrubs. I'm one of the few in my suburban neighborhood with any trees left, and yeah the roots and debris may have caused a headache or two but at least I can have some semblance of living on the planet Earth instead of the flat, gray prison-scape that is most of central Ohio.
+
+2026-01-30T14:45:57-05:00
+One of the most outrageous things I've ever experienced is the professional plumbers I hired a few years ago casually cutting down one of my 8ft trees without asking. This is after they were already finished installing a drain and they took the liberty of landscaping an unaffected part of the lawn for no reason. Presumably this was to prevent roots from affecting the drain in the future... but come on, EcoPlumbers. That still boils my blood.
+
+2026-02-07T19:51:50-05:00
+I've always run four wires to my automotive relays... today it occurred to me to just jump the contact directly to the coil, then you only have to run three and pin 87 has whichever polarity you want. It's hard to explain what I thought the fourth wire was accomplishing before in these low-current scenarios, but I guess that was before I picked up the technique of crimping an extra wire into my connectors for load distribution instead of splicing taps or using rings or something from a central point.
+
+2026-02-08T10:28:55-05:00
+Today I learned most kimchi isn't vegan. Like many Korean and Japanese dishes it's flavored by fermented fish paste. So unnecessary.
+
+2026-02-09T21:39:31-05:00
+Finally got my vintage Honda registered! Thanks to Joe Casola at Saints Engine for getting me a title. Only took a little bit of arguing with the title office about notarization and odometer readings. Surprisingly the non-standard VIN format is not an issue, and the out-of-state inspection at the BMV was painless as could be.
+
+2026-02-09T22:56:30-05:00
+Warmer weather starting this week... really looking forward to getting back to doing deliveries after being cooped up from our recent snowstorm. Side streets were still a mess as of this morning but should be more workable tomorrow and clear again by the end of the week.
+
+2026-02-11T09:52:49-05:00
+Just tried Windows' update-and-shutdown option for giggles, and to my immense surprise it actually updated and shut down. Good news for Windows users, as of late 2025 you can finally turn your computer off after the better part of a decade.
+
+2026-03-11T16:44:56-04:00
+Finally fixed my bathroom sink drain after six years. I always thought it was draining slow because of something weird with the vent stack, but turns out it just needed a longer tailpiece for gravity to overcome the P trap.
+
+2026-03-14T18:25:59-04:00
+Replaced a few shingles today after a nasty wind storm. Fairly low on the roof this time, but the spot I worked on last year isn't holding up too well so I expect to go back up to the ridge soon. Thankfully steep roofs aren't as susceptible to leaks.
+
+2026-04-11T22:00:30-04:00
+Went to my first group ride with the local moped club and it was surprisingly fun… Never thought I'd be interested in group riding but it wasn't nearly as stressful as I imagined and drivers didn't seem to mind. I look forward to seeing what it's like with a larger group.
+
+2026-04-20T22:20:30-04:00
+Experimenting with Neocities as a web host and exploring lots of cool, unique personal sites. I'm finding the Content Security Policy for free accounts severely limiting but thankfully tools like Astro, the official CLI, and local cron scripting can do a lot of heavy lifting for static sites. I dread having to resort to iframes for anything, but given Neocities' demonstrative role as a vintage-era internet platform, maybe it wouldn't be so out of place.
+
+2026-04-25T23:00:00-04:00
+Went with the moped club to my first ever house/pool party where a couple of cool local bands were playing. Good stuff!
+
+2026-05-20T15:00:00-04:00
+Finally took the plunge into Linux for my main workstation, and what a breath of fresh air... I've been stuck on Windows for twenty years purely for audio production (which sadly I haven't actually done for ages, so looking back feels quite silly that this hasn't occurred to me before). Since I have the space for a second desk I reinstalled Windows 7 on an old PC as my offline music workstation which has freed me to switch to Linux Mint for everything else.

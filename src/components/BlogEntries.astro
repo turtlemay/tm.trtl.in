@@ -1,0 +1,19 @@
+---
+import { parseEntries } from "../../parse-entries.js";
+import Entry from "./Entry.astro";
+
+interface Props {
+	bottomId: string;
+	entriesText: string;
+}
+
+const bottomId = Astro.props.bottomId;
+
+const arr = parseEntries(Astro.props.entriesText);
+---
+
+{arr.map((v, i) => {
+	const isLast = i === arr.length - 1;
+	const id = isLast ? bottomId : undefined;
+	return <Entry id={id} date={v.date} content={v.content} />;
+})}

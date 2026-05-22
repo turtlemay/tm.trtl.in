@@ -1,0 +1,16 @@
+---
+import SiteBaseHead from '../components/SiteBaseHead.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<html lang="en">
+	<head>
+		<SiteBaseHead />
+	</head>
+	<body>
+		<main>
+			<slot />
+		</main>
+		<SiteFooter />
+	</body>
+</html>

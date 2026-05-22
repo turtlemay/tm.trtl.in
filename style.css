@@ -1,0 +1,43 @@
+body {
+	min-width: 20em;
+	max-width: 40em;
+	margin: 2em auto 6em;
+	padding: 0 1em;
+	color: #333;
+	font-family: sans-serif;
+}
+
+b {
+	color: black;
+}
+
+h1, h2, h3 {
+	color: black;
+}
+
+pre {
+	color: black;
+}
+
+p > code:not(:only-child) {
+	color: darkgreen;
+}
+
+li {
+	list-style-type: "❖";
+	padding-left: 0.5em;
+}
+
+::marker {
+	color: #ddd;
+}
+
+p > date {
+	font-family: monospace;
+}
+
+.siteHeadBrand * {
+	color: darkgreen;
+	font-weight: bold;
+	font-family: monospace;
+}

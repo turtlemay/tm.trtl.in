@@ -1,0 +1,24 @@
+---
+import SiteBaseHead from '../components/SiteBaseHead.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<html lang="en">
+	<head>
+		<SiteBaseHead />
+	</head>
+	<body>
+		<header class="siteHeadBrand">
+			<p>
+				<span role="presentation">==</span>
+				<a href="/">tm.trtl.in</a>
+				<span role="presentation">==</span>
+			</p>
+		</header>
+		<article>
+			<slot />
+		</article>
+		<p>🡐 <a href="/">Go home</a></p>
+		<SiteFooter />
+	</body>
+</html>
