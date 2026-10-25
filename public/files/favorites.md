@@ -32,6 +32,7 @@
     - Fly Away Home (1996)
     - Forrest Gump (1994)
     - Apollo 13 (1995)
+    - Spider-Man (2002)
 
 ## Books
     Comfort reads: 
